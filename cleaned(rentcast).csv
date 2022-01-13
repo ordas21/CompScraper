@@ -1,0 +1,941 @@
+,abbreviation,unit-type,comp-address,similarity,beds,baths,sqft,type,monthly-rent,days-ago,price-sqft,dist
+0,as185,27201-A1,"6829 E Martin Luther King Jr Blvd, Unit 642
+Austin, TX 78721",80.00%,1,1,701,Apartment,1655,118,2.362,1.31
+1,as185,27201-A1,"7501 Shelton Ave
+Austin, TX 78725",78.10%,1,1,,Single Family,1200,80,,2.06
+2,as185,27201-A1,"5232 Hutchinson Dr
+Austin, TX 78723",77.50%,2,1,808,Single Family,1800,118,2.232,2.25
+3,as185,27201-A1,"6000 Ed Bluestein Blvd, Unit 201
+Austin, TX 78723",77.00%,1,1,695,Apartment,1490,1,2.142,2.28
+4,as185,27201-A1,"6206 Loyola Ln, Unit 1501
+Austin, TX 78724",75.50%,1,1,786,Apartment,948,118,1.212,1.97
+5,as185,27201-A1,"Ed Bluestein Blvd, Unit 4217
+Austin, TX 78721",75.40%,1,1,527,Apartment,1552,2,2.942,1.9
+6,as185,27201-A1,"6829 E Martin Luther King Jr Blvd, Unit 1157
+Austin, TX 78721",72.10%,,1,529,Apartment,1396,118,2.642,1.31
+7,as185,27201-A1,"8403 Colony Loop Dr, Apt B
+Austin, TX 78724",72.10%,2,2,"1,020",Single Family,1150,6,1.132,1.32
+8,as185,27201-A1,"8201 Riverstone Dr, Apt D
+Austin, TX 78724",67.80%,2,1,780,Condo,1195,118,1.532,1.16
+9,as185,27201-A1,"4710 Little Hill Cir
+Austin, TX 78725",67.80%,2,2,"1,294",Single Family,2135,204,1.652,1.64
+10,as185,27201-A1,"8201 Riverstone Dr, Apt A
+Austin, TX 78724",67.80%,2,1,780,Apartment,1195,192,1.532,1.16
+11,as185,27201-A1,"8503 Colony Loop Dr
+Austin, TX 78724",67.40%,2,1,780,Apartment,995,210,1.282,1.3
+12,as185,27201-A1,"8503 Colony Loop Dr, Apt A
+Austin, TX 78724",67.40%,2,1,780,Apartment,995,199,1.282,1.3
+13,as185,27201-A1,"6800 Wentworth Dr, Unit A
+Austin, TX 78724",64.80%,2,1,913,Multi-Family,1350,120,1.482,1.23
+14,as185,27201-A1,"5301 Decker Ln
+Austin, TX 78724",64.80%,,,,Apartment,1558,2,,0.1
+15,as185,27201-A1,"5404 Northdale Dr
+Austin, TX 78723",63.30%,3,1,999,Single Family,1650,30,1.652,2.33
+16,as185,27201-A1,"10709 Fm 969 Rd
+Austin, TX 78724",62.60%,2,2.5,"1,892",Single Family,2750,77,1.452,1.41
+17,as185,27201-A1,"8913 Southwick Dr
+Austin, TX 78724",62.40%,3,2,"1,203",Single Family,1995,86,1.662,0.39
+18,as185,27201-A1,"9217 Southwick Dr
+Austin, TX 78724",62.20%,3,2,"1,197",Single Family,1995,45,1.672,0.49
+19,as185,27201-A1,"9025 China Rose Dr
+Austin, TX 78724",62.10%,3,2,"1,203",Single Family,2000,120,1.662,0.49
+20,as185,27201-A2,"5232 Hutchinson Dr
+Austin, TX 78723",81.90%,2,1,808,Single Family,1800,118,2.232,2.25
+21,as185,27201-A2,"6206 Loyola Ln, Unit 1501
+Austin, TX 78724",79.10%,1,1,786,Apartment,948,118,1.212,1.97
+22,as185,27201-A2,"6829 E Martin Luther King Jr Blvd, Unit 642
+Austin, TX 78721",78.80%,1,1,701,Apartment,1655,118,2.362,1.31
+23,as185,27201-A2,"7501 Shelton Ave
+Austin, TX 78725",78.10%,1,1,,Single Family,1200,80,,2.06
+24,as185,27201-A2,"8403 Colony Loop Dr, Apt B
+Austin, TX 78724",75.50%,2,2,"1,020",Single Family,1150,6,1.132,1.32
+25,as185,27201-A2,"6000 Ed Bluestein Blvd, Unit 201
+Austin, TX 78723",75.50%,1,1,695,Apartment,1490,1,2.142,2.28
+26,as185,27201-A2,"Ed Bluestein Blvd, Unit 4217
+Austin, TX 78721",71.80%,1,1,527,Apartment,1552,2,2.942,1.9
+27,as185,27201-A2,"8201 Riverstone Dr, Apt D
+Austin, TX 78724",71.10%,2,1,780,Condo,1195,118,1.532,1.16
+28,as185,27201-A2,"8201 Riverstone Dr, Apt A
+Austin, TX 78724",71.10%,2,1,780,Apartment,1195,192,1.532,1.16
+29,as185,27201-A2,"8503 Colony Loop Dr
+Austin, TX 78724",70.70%,2,1,780,Apartment,995,210,1.282,1.3
+30,as185,27201-A2,"8503 Colony Loop Dr, Apt A
+Austin, TX 78724",70.70%,2,1,780,Apartment,995,199,1.282,1.3
+31,as185,27201-A2,"4710 Little Hill Cir
+Austin, TX 78725",70.50%,2,2,"1,294",Single Family,2135,204,1.652,1.64
+32,as185,27201-A2,"6800 Wentworth Dr, Unit A
+Austin, TX 78724",68.60%,2,1,913,Multi-Family,1350,120,1.482,1.23
+33,as185,27201-A2,"6829 E Martin Luther King Jr Blvd, Unit 1157
+Austin, TX 78721",68.60%,,1,529,Apartment,1396,118,2.642,1.31
+34,as185,27201-A2,"5404 Northdale Dr
+Austin, TX 78723",66.80%,3,1,999,Single Family,1650,30,1.652,2.33
+35,as185,27201-A2,"8913 Southwick Dr
+Austin, TX 78724",65.30%,3,2,"1,203",Single Family,1995,86,1.662,0.39
+36,as185,27201-A2,"9217 Southwick Dr
+Austin, TX 78724",65.10%,3,2,"1,197",Single Family,1995,45,1.672,0.49
+37,as185,27201-A2,"9025 China Rose Dr
+Austin, TX 78724",65.00%,3,2,"1,203",Single Family,2000,120,1.662,0.49
+38,as185,27201-A2,"5625 Signal Pt
+Austin, TX 78724",64.90%,3,2,"1,080",Single Family,1595,59,1.482,1.05
+39,as185,27201-A2,"5808 Glowing Star Trl
+Austin, TX 78724",64.90%,3,2,"1,207",Single Family,2010,1,1.672,0.51
+40,as185,27201-B1,"8403 Colony Loop Dr, Apt B
+Austin, TX 78724",93.80%,2,2,"1,020",Single Family,1150,6,1.132,1.32
+41,as185,27201-B1,"4710 Little Hill Cir
+Austin, TX 78725",91.20%,2,2,"1,294",Single Family,2135,204,1.652,1.64
+42,as185,27201-B1,"8913 Southwick Dr
+Austin, TX 78724",86.40%,3,2,"1,203",Single Family,1995,86,1.662,0.39
+43,as185,27201-B1,"9217 Southwick Dr
+Austin, TX 78724",86.20%,3,2,"1,197",Single Family,1995,45,1.672,0.49
+44,as185,27201-B1,"9025 China Rose Dr
+Austin, TX 78724",86.00%,3,2,"1,203",Single Family,2000,120,1.662,0.49
+45,as185,27201-B1,"5808 Glowing Star Trl
+Austin, TX 78724",85.90%,3,2,"1,207",Single Family,2010,1,1.672,0.51
+46,as185,27201-B1,"5301 Decker Ln, Apt 9207
+Austin, TX 78724",85.70%,2,2,"1,108",Condo,1779,71,1.612,0.1
+47,as185,27201-B1,"8602 FM 969
+Austin, TX 78724",85.70%,2,2,"1,109",Apartment,1700,118,1.532,0.09
+48,as185,27201-B1,"5709 Levenwood Ln
+Austin, TX 78724",85.60%,3,2,"1,207",Single Family,1950,199,1.622,0.58
+49,as185,27201-B1,"5625 Signal Pt
+Austin, TX 78724",85.50%,3,2,"1,080",Single Family,1595,59,1.482,1.05
+50,as185,27201-B1,"5912 Pinon Vista Dr
+Austin, TX 78724",83.60%,3,2,"1,230",Single Family,2400,37,1.952,1.09
+51,as185,27201-B1,"10709 Fm 969 Rd
+Austin, TX 78724",83.40%,2,2.5,"1,892",Single Family,2750,77,1.452,1.41
+52,as185,27201-B1,"5407 Garden View Cv
+Austin, TX 78724",83.30%,3,2,"1,131",Single Family,1650,195,1.462,1.73
+53,as185,27201-B1,"5520 Toscana Ave
+Austin, TX 78724",83.00%,3,2,"1,289",Single Family,1900,1,1.472,0.98
+54,as185,27201-B1,"5604 Pinon Vista Dr
+Austin, TX 78724",82.30%,3,2,"1,320",Single Family,1600,125,1.212,1.05
+55,as185,27201-B1,"5913 Alsace Trl
+Austin, TX 78724",82.20%,3,2,"1,306",Single Family,1695,1,1.302,1.14
+56,as185,27201-B1,"5513 Nelson Oaks Dr
+Austin, TX 78724",82.10%,3,2,"1,509",Single Family,2200,150,1.462,0.37
+57,as185,27201-B1,"5613 Nelson Oaks Dr
+Austin, TX 78724",82.00%,3,2,"1,509",Single Family,2200,186,1.462,0.39
+58,as185,27201-B1,"6016 Signal Pt
+Austin, TX 78724",82.00%,3,2,"1,320",Single Family,1700,1,1.292,1.17
+59,as185,27201-B1,"6025 Signal Pt
+Austin, TX 78724",81.90%,3,2,"1,320",Single Family,1695,64,1.282,1.18
+60,as185,27201-B2,"4710 Little Hill Cir
+Austin, TX 78725",93.70%,2,2,"1,294",Single Family,2135,204,1.652,1.64
+61,as185,27201-B2,"8403 Colony Loop Dr, Apt B
+Austin, TX 78724",91.40%,2,2,"1,020",Single Family,1150,6,1.132,1.32
+62,as185,27201-B2,"8913 Southwick Dr
+Austin, TX 78724",87.40%,3,2,"1,203",Single Family,1995,86,1.662,0.39
+63,as185,27201-B2,"5808 Glowing Star Trl
+Austin, TX 78724",87.00%,3,2,"1,207",Single Family,2010,1,1.672,0.51
+64,as185,27201-B2,"9025 China Rose Dr
+Austin, TX 78724",87.00%,3,2,"1,203",Single Family,2000,120,1.662,0.49
+65,as185,27201-B2,"9217 Southwick Dr
+Austin, TX 78724",86.90%,3,2,"1,197",Single Family,1995,45,1.672,0.49
+66,as185,27201-B2,"5709 Levenwood Ln
+Austin, TX 78724",86.80%,3,2,"1,207",Single Family,1950,199,1.622,0.58
+67,as185,27201-B2,"5520 Toscana Ave
+Austin, TX 78724",85.60%,3,2,"1,289",Single Family,1900,1,1.472,0.98
+68,as185,27201-B2,"5912 Pinon Vista Dr
+Austin, TX 78724",85.60%,3,2,"1,230",Single Family,2400,37,1.952,1.09
+69,as185,27201-B2,"10709 Fm 969 Rd
+Austin, TX 78724",85.10%,2,2.5,"1,892",Single Family,2750,77,1.452,1.41
+70,as185,27201-B2,"5604 Pinon Vista Dr
+Austin, TX 78724",84.80%,3,2,"1,320",Single Family,1600,125,1.212,1.05
+71,as185,27201-B2,"5913 Alsace Trl
+Austin, TX 78724",84.80%,3,2,"1,306",Single Family,1695,1,1.302,1.14
+72,as185,27201-B2,"6016 Signal Pt
+Austin, TX 78724",84.50%,3,2,"1,320",Single Family,1700,1,1.292,1.17
+73,as185,27201-B2,"6025 Signal Pt
+Austin, TX 78724",84.40%,3,2,"1,320",Single Family,1695,64,1.282,1.18
+74,as185,27201-B2,"5513 Nelson Oaks Dr
+Austin, TX 78724",84.30%,3,2,"1,509",Single Family,2200,150,1.462,0.37
+75,as185,27201-B2,"6041 Signal Pt
+Austin, TX 78724",84.30%,3,2,"1,320",Single Family,1650,77,1.252,1.21
+76,as185,27201-B2,"5613 Nelson Oaks Dr
+Austin, TX 78724",84.20%,3,2,"1,509",Single Family,2200,186,1.462,0.39
+77,as185,27201-B2,"9305 Southwick Dr
+Austin, TX 78724",83.70%,3,2,"1,516",Single Family,1895,81,1.252,0.52
+78,as185,27201-B2,"5901 Nelson Oaks Dr
+Austin, TX 78724",83.50%,3,2,"1,532",Single Family,1925,77,1.262,0.54
+79,as185,27201-B2,"9000 Tall Sky Trce
+Austin, TX 78724",83.40%,3,2,"1,637",Single Family,2000,26,1.222,0.2
+80,as163,as1631a1,"1004 W Whitestone Blvd, Unit 142944
+Cedar Park, TX 78613",85.50%,1,1,660,Apartment,945,115,1.432,0.15
+81,as163,as1631a1,"1004 W Whitestone Blvd, # 142944
+Cedar Park, TX 78613",85.50%,1,1,660,Apartment,945,196,1.432,0.15
+82,as163,as1631a1,"1201 W Whitestone Crossing Cedar Park
+Cedar Park, TX 78613",85.00%,1,1,687,Apartment,1000,196,1.462,0.02
+83,as163,as1631a1,"1210 W Whitestone Xing, Unit 232731-687
+Austin, TX 78613",84.90%,1,1,687,Apartment,1195,116,1.742,0.07
+84,as163,as1631a1,"1201 W Whitestone Blvd
+Cedar Park, TX 78613",75.40%,1,1.5,"1,024",Apartment,1257,1,1.232,0.02
+85,as163,as1631a1,"1210 W Whitestone Xing, Unit 232731-1024
+Austin, TX 78613",75.20%,1,1.5,"1,024",Apartment,1750,116,1.712,0.07
+86,as163,as1631a1,"1507 Cedar Park Rd
+Cedar Park, TX 78613",66.20%,1,1,"2,864",Apartment,853,1,0.302,0.58
+87,as163,as1631a1,"1301 W Whitestone Blvd
+Cedar Park, TX 78613",64.60%,,,,Apartment,1086,1,,0.13
+88,as163,as1631a1,"1045 Silverstone Ln
+Cedar Park, TX 78613",63.80%,3,2,"1,153",Single Family,2000,207,1.732,0.2
+89,as163,as1631a1,"1018 Audra St
+Cedar Park, TX 78613",63.60%,3,2,"1,165",Single Family,2010,1,1.732,0.21
+90,as163,as1631a1,"1006 Reynaldo St
+Cedar Park, TX 78613",62.10%,3,2,"1,297",Single Family,1555,10,1.202,0.27
+91,as163,as1631a1,"1201 Brashear Ln
+Cedar Park, TX 78613",61.80%,3,2,"1,343",Single Family,1750,58,1.302,0.23
+92,as163,as1631a1,"800 Lone Star Dr
+Cedar Park, TX 78613",61.70%,3,2,"1,253",Single Family,1900,207,1.522,0.49
+93,as163,as1631a1,"1047 Silverstone Ln
+Cedar Park, TX 78613",61.70%,3,2,"1,368",Single Family,1850,121,1.352,0.2
+94,as163,as1631a1,"601 Doris Ln
+Cedar Park, TX 78613",61.40%,1,1,"33,320",Apartment,1325,1,0.042,0.57
+95,as163,as1631a1,"2006 Coachlamp Dr
+Cedar Park, TX 78613",61.30%,3,2,"1,180",Single Family,1795,14,1.522,0.88
+96,as163,as1631a1,"1101 Doris Ln
+Cedar Park, TX 78613",61.20%,3,2,"1,316",Single Family,1900,196,1.442,0.47
+97,as163,as1631a1,"703 Blue Oak Cir
+Cedar Park, TX 78613",61.20%,3,2,"1,303",Single Family,1785,206,1.372,0.52
+98,as163,as1631a1,"1004 W Whitestone Blvd, Unit 142820
+Cedar Park, TX 78613",60.50%,2,2,"1,150",Apartment,1450,115,1.262,0.15
+99,as163,as1631a1,"1004 W Whitestone Blvd, # 142820
+Cedar Park, TX 78613",60.50%,2,2,"1,150",Apartment,1450,196,1.262,0.15
+100,as163,as1631a2,"1201 W Whitestone Crossing Cedar Park
+Cedar Park, TX 78613",85.90%,1,1,687,Apartment,1000,196,1.462,0.02
+101,as163,as1631a2,"1210 W Whitestone Xing, Unit 232731-687
+Austin, TX 78613",85.80%,1,1,687,Apartment,1195,116,1.742,0.07
+102,as163,as1631a2,"1004 W Whitestone Blvd, Unit 142944
+Cedar Park, TX 78613",84.60%,1,1,660,Apartment,945,115,1.432,0.15
+103,as163,as1631a2,"1004 W Whitestone Blvd, # 142944
+Cedar Park, TX 78613",84.60%,1,1,660,Apartment,945,196,1.432,0.15
+104,as163,as1631a2,"1201 W Whitestone Blvd
+Cedar Park, TX 78613",76.00%,1,1.5,"1,024",Apartment,1257,1,1.232,0.02
+105,as163,as1631a2,"1210 W Whitestone Xing, Unit 232731-1024
+Austin, TX 78613",75.80%,1,1.5,"1,024",Apartment,1750,116,1.712,0.07
+106,as163,as1631a2,"1507 Cedar Park Rd
+Cedar Park, TX 78613",66.50%,1,1,"2,864",Apartment,853,1,0.302,0.58
+107,as163,as1631a2,"1301 W Whitestone Blvd
+Cedar Park, TX 78613",64.60%,,,,Apartment,1086,1,,0.13
+108,as163,as1631a2,"1045 Silverstone Ln
+Cedar Park, TX 78613",64.30%,3,2,"1,153",Single Family,2000,207,1.732,0.2
+109,as163,as1631a2,"1018 Audra St
+Cedar Park, TX 78613",64.20%,3,2,"1,165",Single Family,2010,1,1.732,0.21
+110,as163,as1631a2,"1006 Reynaldo St
+Cedar Park, TX 78613",62.60%,3,2,"1,297",Single Family,1555,10,1.202,0.27
+111,as163,as1631a2,"1201 Brashear Ln
+Cedar Park, TX 78613",62.30%,3,2,"1,343",Single Family,1750,58,1.302,0.23
+112,as163,as1631a2,"800 Lone Star Dr
+Cedar Park, TX 78613",62.20%,3,2,"1,253",Single Family,1900,207,1.522,0.49
+113,as163,as1631a2,"1047 Silverstone Ln
+Cedar Park, TX 78613",62.10%,3,2,"1,368",Single Family,1850,121,1.352,0.2
+114,as163,as1631a2,"2006 Coachlamp Dr
+Cedar Park, TX 78613",61.80%,3,2,"1,180",Single Family,1795,14,1.522,0.88
+115,as163,as1631a2,"1101 Doris Ln
+Cedar Park, TX 78613",61.70%,3,2,"1,316",Single Family,1900,196,1.442,0.47
+116,as163,as1631a2,"703 Blue Oak Cir
+Cedar Park, TX 78613",61.70%,3,2,"1,303",Single Family,1785,206,1.372,0.52
+117,as163,as1631a2,"601 Doris Ln
+Cedar Park, TX 78613",61.40%,1,1,"33,320",Apartment,1325,1,0.042,0.57
+118,as163,as1631a2,"1004 W Whitestone Blvd, Unit 142820
+Cedar Park, TX 78613",61.00%,2,2,"1,150",Apartment,1450,115,1.262,0.15
+119,as163,as1631a2,"1004 W Whitestone Blvd, # 142820
+Cedar Park, TX 78613",61.00%,2,2,"1,150",Apartment,1450,196,1.262,0.15
+120,as163,as1631a3,"1201 W Whitestone Crossing Cedar Park
+Cedar Park, TX 78613",81.40%,1,1,687,Apartment,1000,196,1.462,0.02
+121,as163,as1631a3,"1210 W Whitestone Xing, Unit 232731-687
+Austin, TX 78613",81.30%,1,1,687,Apartment,1195,116,1.742,0.07
+122,as163,as1631a3,"1004 W Whitestone Blvd, Unit 142944
+Cedar Park, TX 78613",80.20%,1,1,660,Apartment,945,115,1.432,0.15
+123,as163,as1631a3,"1004 W Whitestone Blvd, # 142944
+Cedar Park, TX 78613",80.20%,1,1,660,Apartment,945,196,1.432,0.15
+124,as163,as1631a3,"1201 W Whitestone Blvd
+Cedar Park, TX 78613",79.80%,1,1.5,"1,024",Apartment,1257,1,1.232,0.02
+125,as163,as1631a3,"1210 W Whitestone Xing, Unit 232731-1024
+Austin, TX 78613",79.60%,1,1.5,"1,024",Apartment,1750,116,1.712,0.07
+126,as163,as1631a3,"1507 Cedar Park Rd
+Cedar Park, TX 78613",67.80%,1,1,"2,864",Apartment,853,1,0.302,0.58
+127,as163,as1631a3,"1045 Silverstone Ln
+Cedar Park, TX 78613",67.70%,3,2,"1,153",Single Family,2000,207,1.732,0.2
+128,as163,as1631a3,"1018 Audra St
+Cedar Park, TX 78613",67.50%,3,2,"1,165",Single Family,2010,1,1.732,0.21
+129,as163,as1631a3,"1006 Reynaldo St
+Cedar Park, TX 78613",65.60%,3,2,"1,297",Single Family,1555,10,1.202,0.27
+130,as163,as1631a3,"800 Lone Star Dr
+Cedar Park, TX 78613",65.30%,3,2,"1,253",Single Family,1900,207,1.522,0.49
+131,as163,as1631a3,"1201 Brashear Ln
+Cedar Park, TX 78613",65.20%,3,2,"1,343",Single Family,1750,58,1.302,0.23
+132,as163,as1631a3,"2006 Coachlamp Dr
+Cedar Park, TX 78613",65.10%,3,2,"1,180",Single Family,1795,14,1.522,0.88
+133,as163,as1631a3,"1047 Silverstone Ln
+Cedar Park, TX 78613",65.00%,3,2,"1,368",Single Family,1850,121,1.352,0.2
+134,as163,as1631a3,"1301 W Whitestone Blvd
+Cedar Park, TX 78613",64.60%,,,,Apartment,1086,1,,0.13
+135,as163,as1631a3,"703 Blue Oak Cir
+Cedar Park, TX 78613",64.60%,3,2,"1,303",Single Family,1785,206,1.372,0.52
+136,as163,as1631a3,"1101 Doris Ln
+Cedar Park, TX 78613",64.60%,3,2,"1,316",Single Family,1900,196,1.442,0.47
+137,as163,as1631a3,"1004 W Whitestone Blvd, Unit 142820
+Cedar Park, TX 78613",64.40%,2,2,"1,150",Apartment,1450,115,1.262,0.15
+138,as163,as1631a3,"1004 W Whitestone Blvd, # 142820
+Cedar Park, TX 78613",64.40%,2,2,"1,150",Apartment,1450,196,1.262,0.15
+139,as163,as1631a3,"1813 Woodstone Ct
+Cedar Park, TX 78613",63.90%,3,2,"1,296",Single Family,2100,154,1.622,0.78
+140,as163,as1631b1,"1201 W Whitestone Blvd
+Cedar Park, TX 78613",86.00%,1,1.5,"1,024",Apartment,1257,1,1.232,0.02
+141,as163,as1631b1,"1210 W Whitestone Xing, Unit 232731-1024
+Austin, TX 78613",85.80%,1,1.5,"1,024",Apartment,1750,116,1.712,0.07
+142,as163,as1631b1,"1201 W Whitestone Crossing Cedar Park
+Cedar Park, TX 78613",75.90%,1,1,687,Apartment,1000,196,1.462,0.02
+143,as163,as1631b1,"1210 W Whitestone Xing, Unit 232731-687
+Austin, TX 78613",75.80%,1,1,687,Apartment,1195,116,1.742,0.07
+144,as163,as1631b1,"1004 W Whitestone Blvd, Unit 142944
+Cedar Park, TX 78613",74.90%,1,1,660,Apartment,945,115,1.432,0.15
+145,as163,as1631b1,"1004 W Whitestone Blvd, # 142944
+Cedar Park, TX 78613",74.90%,1,1,660,Apartment,945,196,1.432,0.15
+146,as163,as1631b1,"1045 Silverstone Ln
+Cedar Park, TX 78613",73.40%,3,2,"1,153",Single Family,2000,207,1.732,0.2
+147,as163,as1631b1,"1018 Audra St
+Cedar Park, TX 78613",73.20%,3,2,"1,165",Single Family,2010,1,1.732,0.21
+148,as163,as1631b1,"1006 Reynaldo St
+Cedar Park, TX 78613",71.00%,3,2,"1,297",Single Family,1555,10,1.202,0.27
+149,as163,as1631b1,"800 Lone Star Dr
+Cedar Park, TX 78613",70.80%,3,2,"1,253",Single Family,1900,207,1.522,0.49
+150,as163,as1631b1,"2006 Coachlamp Dr
+Cedar Park, TX 78613",70.80%,3,2,"1,180",Single Family,1795,14,1.522,0.88
+151,as163,as1631b1,"1201 Brashear Ln
+Cedar Park, TX 78613",70.50%,3,2,"1,343",Single Family,1750,58,1.302,0.23
+152,as163,as1631b1,"1047 Silverstone Ln
+Cedar Park, TX 78613",70.20%,3,2,"1,368",Single Family,1850,121,1.352,0.2
+153,as163,as1631b1,"1004 W Whitestone Blvd, Unit 142820
+Cedar Park, TX 78613",70.20%,2,2,"1,150",Apartment,1450,115,1.262,0.15
+154,as163,as1631b1,"1004 W Whitestone Blvd, # 142820
+Cedar Park, TX 78613",70.10%,2,2,"1,150",Apartment,1450,196,1.262,0.15
+155,as163,as1631b1,"703 Blue Oak Cir
+Cedar Park, TX 78613",70.00%,3,2,"1,303",Single Family,1785,206,1.372,0.52
+156,as163,as1631b1,"1101 Doris Ln
+Cedar Park, TX 78613",70.00%,3,2,"1,316",Single Family,1900,196,1.442,0.47
+157,as163,as1631b1,"1813 Woodstone Ct
+Cedar Park, TX 78613",69.30%,3,2,"1,296",Single Family,2100,154,1.622,0.78
+158,as163,as1631b1,"202 Fawnfield Dr
+Cedar Park, TX 78613",69.20%,3,2,"1,243",Single Family,2100,192,1.692,1.01
+159,as163,as1631b1,"1806 Oakmont Ln
+Cedar Park, TX 78613",69.20%,3,2,"1,323",Single Family,1995,208,1.512,0.68
+160,as163,as1632d1,"1045 Silverstone Ln
+Cedar Park, TX 78613",86.40%,3,2,"1,153",Single Family,2000,207,1.732,0.2
+161,as163,as1632d1,"1018 Audra St
+Cedar Park, TX 78613",86.20%,3,2,"1,165",Single Family,2010,1,1.732,0.21
+162,as163,as1632d1,"1210 W Whitestone Xing, Unit 232731-1150
+Austin, TX 78613",85.80%,2,2.5,"1,150",Apartment,1900,116,1.652,0.07
+163,as163,as1632d1,"2006 Coachlamp Dr
+Cedar Park, TX 78613",83.70%,3,2,"1,180",Single Family,1795,14,1.522,0.88
+164,as163,as1632d1,"1006 Reynaldo St
+Cedar Park, TX 78613",83.70%,3,2,"1,297",Single Family,1555,10,1.202,0.27
+165,as163,as1632d1,"800 Lone Star Dr
+Cedar Park, TX 78613",83.60%,3,2,"1,253",Single Family,1900,207,1.522,0.49
+166,as163,as1632d1,"1004 W Whitestone Blvd, Unit 142820
+Cedar Park, TX 78613",83.20%,2,2,"1,150",Apartment,1450,115,1.262,0.15
+167,as163,as1632d1,"1004 W Whitestone Blvd, # 142820
+Cedar Park, TX 78613",83.10%,2,2,"1,150",Apartment,1450,196,1.262,0.15
+168,as163,as1632d1,"1201 Brashear Ln
+Cedar Park, TX 78613",83.10%,3,2,"1,343",Single Family,1750,58,1.302,0.23
+169,as163,as1632d1,"1047 Silverstone Ln
+Cedar Park, TX 78613",82.80%,3,2,"1,368",Single Family,1850,121,1.352,0.2
+170,as163,as1632d1,"703 Blue Oak Cir
+Cedar Park, TX 78613",82.70%,3,2,"1,303",Single Family,1785,206,1.372,0.52
+171,as163,as1632d1,"1101 Doris Ln
+Cedar Park, TX 78613",82.70%,3,2,"1,316",Single Family,1900,196,1.442,0.47
+172,as163,as1632d1,"202 Fawnfield Dr
+Cedar Park, TX 78613",82.10%,3,2,"1,243",Single Family,2100,192,1.692,1.01
+173,as163,as1632d1,"1813 Woodstone Ct
+Cedar Park, TX 78613",82.00%,3,2,"1,296",Single Family,2100,154,1.622,0.78
+174,as163,as1632d1,"1806 Oakmont Ln
+Cedar Park, TX 78613",81.90%,3,2,"1,323",Single Family,1995,208,1.512,0.68
+175,as163,as1632d1,"1914 Hollow Ridge Dr
+Cedar Park, TX 78613",81.30%,3,2,"1,335",Single Family,1750,10,1.312,0.81
+176,as163,as1632d1,"800 Monarch Ave
+Cedar Park, TX 78613",80.70%,3,2,"1,465",Single Family,1895,15,1.292,0.45
+177,as163,as1632d1,"1504 Sedbury Way
+Cedar Park, TX 78613",80.40%,3,2,"1,360",Single Family,1995,100,1.472,0.98
+178,as163,as1632d1,"1402 Cedar Park Dr
+Cedar Park, TX 78613",80.30%,3,2,"1,462",Single Family,1900,82,1.302,0.58
+179,as163,as1632d1,"1707 Deodara Dr
+Cedar Park, TX 78613",80.20%,3,2,"1,420",Single Family,1875,119,1.322,0.78
+180,as167,as1671a1,"1016 W Stassney Ln, Apt 122
+Austin, TX 78745",95.60%,1,1,588,Apartment,1355,113,2.302,0.03
+181,as167,as1671a1,"1016 W Stassney Ln, Apt 136
+Austin, TX 78745",95.60%,1,1,588,Apartment,1285,126,2.192,0.03
+182,as167,as1671a1,"1016 W Stassney Ln, Apt 148
+Austin, TX 78745",92.40%,1,1,708,Apartment,1355,120,1.912,0.03
+183,as167,as1671a1,"1020 W Stassney Ln, Unit 248
+Austin, TX 78745",92.30%,1,1,708,Apartment,1455,118,2.062,0.06
+184,as167,as1671a1,"1020 W Stassney Ln, Unit 165
+Austin, TX 78745",92.30%,1,1,708,Apartment,1358,127,1.922,0.07
+185,as167,as1671a1,"5807 S 1st St, Unit ATC11
+Austin, TX 78745",92.10%,1,1,670,Apartment,1185,120,1.772,0.39
+186,as167,as1671a1,"1016 W Stassney Ln
+Austin, TX 78745",88.30%,1,1,,Apartment,1105,1,,0.03
+187,as167,as1671a1,"1005 W Stassney Ln, Unit 25203
+Austin, TX 78745",88.00%,1,1,,Apartment,1015,1,,0.1
+188,as167,as1671a1,"714 Turtle Creek Blvd, Unit 156
+Austin, TX 78745",87.10%,1,1,,Apartment,1249,126,,0.38
+189,as167,as1671a1,"5816 S 1st St
+Austin, TX 78745",83.60%,1,1,,Single Family,1199,122,,0.36
+190,as167,as1671a1,"1005 W Stassney Ln
+Austin, TX 78745",79.70%,1,1,650,Condo,975,1,1.502,0.1
+191,as167,as1671a1,"1005 W Stassney Ln, Unit 25202
+Austin, TX 78745",77.60%,Studio,1,,Apartment,1140,3,,0.1
+192,as167,as1671a1,"1005 W Stassney Ln, Unit 25201
+Austin, TX 78745",77.60%,Studio,1,,Apartment,975,1,,0.1
+193,as167,as1671a1,"5304 Saint Georges Grn, Apt A
+Austin, TX 78745",77.60%,2,1,840,Apartment,1000,204,1.192,0.59
+194,as167,as1671a1,"811 Ramble Ln
+Austin, TX 78745",77.30%,2,1,,Apartment,1395,196,,0.15
+195,as167,as1671a1,"5800 Emerald Forest Dr
+Austin, TX 78745",77.10%,2,1,,Apartment,1525,28,,0.24
+196,as167,as1671a1,"6200 Soft Wind Cir
+Austin, TX 78745",76.20%,2,1,,Apartment,1450,103,,0.51
+197,as167,as1671a1,"801 Sirocco Dr
+Austin, TX 78745",76.20%,2,1,,Apartment,1375,199,,0.51
+198,as167,as1671a1,"5304 Saint Georges Grn
+Austin, TX 78745",75.90%,2,1,,Apartment,1000,203,,0.59
+199,as167,as1671a1,"4903 Hawk Cv
+Austin, TX 78745",75.80%,2,1,,Apartment,1475,43,,0.63
+200,as167,as1671a1-R,"1016 W Stassney Ln, Apt 122
+Austin, TX 78745",95.60%,1,1,588,Apartment,1355,113,2.302,0.03
+201,as167,as1671a1-R,"1016 W Stassney Ln, Apt 136
+Austin, TX 78745",95.60%,1,1,588,Apartment,1285,126,2.192,0.03
+202,as167,as1671a1-R,"1016 W Stassney Ln, Apt 148
+Austin, TX 78745",92.40%,1,1,708,Apartment,1355,120,1.912,0.03
+203,as167,as1671a1-R,"1020 W Stassney Ln, Unit 248
+Austin, TX 78745",92.30%,1,1,708,Apartment,1455,118,2.062,0.06
+204,as167,as1671a1-R,"1020 W Stassney Ln, Unit 165
+Austin, TX 78745",92.30%,1,1,708,Apartment,1358,127,1.922,0.07
+205,as167,as1671a1-R,"5807 S 1st St, Unit ATC11
+Austin, TX 78745",92.10%,1,1,670,Apartment,1185,120,1.772,0.39
+206,as167,as1671a1-R,"1016 W Stassney Ln
+Austin, TX 78745",88.30%,1,1,,Apartment,1105,1,,0.03
+207,as167,as1671a1-R,"1005 W Stassney Ln, Unit 25203
+Austin, TX 78745",88.00%,1,1,,Apartment,1015,1,,0.1
+208,as167,as1671a1-R,"714 Turtle Creek Blvd, Unit 156
+Austin, TX 78745",87.10%,1,1,,Apartment,1249,126,,0.38
+209,as167,as1671a1-R,"5816 S 1st St
+Austin, TX 78745",83.60%,1,1,,Single Family,1199,122,,0.36
+210,as167,as1671a1-R,"1005 W Stassney Ln
+Austin, TX 78745",79.70%,1,1,650,Condo,975,1,1.502,0.1
+211,as167,as1671a1-R,"1005 W Stassney Ln, Unit 25202
+Austin, TX 78745",77.60%,Studio,1,,Apartment,1140,3,,0.1
+212,as167,as1671a1-R,"1005 W Stassney Ln, Unit 25201
+Austin, TX 78745",77.60%,Studio,1,,Apartment,975,1,,0.1
+213,as167,as1671a1-R,"5304 Saint Georges Grn, Apt A
+Austin, TX 78745",77.60%,2,1,840,Apartment,1000,204,1.192,0.59
+214,as167,as1671a1-R,"811 Ramble Ln
+Austin, TX 78745",77.30%,2,1,,Apartment,1395,196,,0.15
+215,as167,as1671a1-R,"5800 Emerald Forest Dr
+Austin, TX 78745",77.10%,2,1,,Apartment,1525,28,,0.24
+216,as167,as1671a1-R,"6200 Soft Wind Cir
+Austin, TX 78745",76.20%,2,1,,Apartment,1450,103,,0.51
+217,as167,as1671a1-R,"801 Sirocco Dr
+Austin, TX 78745",76.20%,2,1,,Apartment,1375,199,,0.51
+218,as167,as1671a1-R,"5304 Saint Georges Grn
+Austin, TX 78745",75.90%,2,1,,Apartment,1000,203,,0.59
+219,as167,as1671a1-R,"4903 Hawk Cv
+Austin, TX 78745",75.80%,2,1,,Apartment,1475,43,,0.63
+220,as167,as1671a1-U,"1016 W Stassney Ln, Apt 122
+Austin, TX 78745",95.60%,1,1,588,Apartment,1355,113,2.302,0.03
+221,as167,as1671a1-U,"1016 W Stassney Ln, Apt 136
+Austin, TX 78745",95.60%,1,1,588,Apartment,1285,126,2.192,0.03
+222,as167,as1671a1-U,"1016 W Stassney Ln, Apt 148
+Austin, TX 78745",92.40%,1,1,708,Apartment,1355,120,1.912,0.03
+223,as167,as1671a1-U,"1020 W Stassney Ln, Unit 248
+Austin, TX 78745",92.30%,1,1,708,Apartment,1455,118,2.062,0.06
+224,as167,as1671a1-U,"1020 W Stassney Ln, Unit 165
+Austin, TX 78745",92.30%,1,1,708,Apartment,1358,127,1.922,0.07
+225,as167,as1671a1-U,"5807 S 1st St, Unit ATC11
+Austin, TX 78745",92.10%,1,1,670,Apartment,1185,120,1.772,0.39
+226,as167,as1671a1-U,"1016 W Stassney Ln
+Austin, TX 78745",88.30%,1,1,,Apartment,1105,1,,0.03
+227,as167,as1671a1-U,"1005 W Stassney Ln, Unit 25203
+Austin, TX 78745",88.00%,1,1,,Apartment,1015,1,,0.1
+228,as167,as1671a1-U,"714 Turtle Creek Blvd, Unit 156
+Austin, TX 78745",87.10%,1,1,,Apartment,1249,126,,0.38
+229,as167,as1671a1-U,"5816 S 1st St
+Austin, TX 78745",83.60%,1,1,,Single Family,1199,122,,0.36
+230,as167,as1671a1-U,"1005 W Stassney Ln
+Austin, TX 78745",79.70%,1,1,650,Condo,975,1,1.502,0.1
+231,as167,as1671a1-U,"1005 W Stassney Ln, Unit 25202
+Austin, TX 78745",77.60%,Studio,1,,Apartment,1140,3,,0.1
+232,as167,as1671a1-U,"1005 W Stassney Ln, Unit 25201
+Austin, TX 78745",77.60%,Studio,1,,Apartment,975,1,,0.1
+233,as167,as1671a1-U,"5304 Saint Georges Grn, Apt A
+Austin, TX 78745",77.60%,2,1,840,Apartment,1000,204,1.192,0.59
+234,as167,as1671a1-U,"811 Ramble Ln
+Austin, TX 78745",77.30%,2,1,,Apartment,1395,196,,0.15
+235,as167,as1671a1-U,"5800 Emerald Forest Dr
+Austin, TX 78745",77.10%,2,1,,Apartment,1525,28,,0.24
+236,as167,as1671a1-U,"6200 Soft Wind Cir
+Austin, TX 78745",76.20%,2,1,,Apartment,1450,103,,0.51
+237,as167,as1671a1-U,"801 Sirocco Dr
+Austin, TX 78745",76.20%,2,1,,Apartment,1375,199,,0.51
+238,as167,as1671a1-U,"5304 Saint Georges Grn
+Austin, TX 78745",75.90%,2,1,,Apartment,1000,203,,0.59
+239,as167,as1671a1-U,"4903 Hawk Cv
+Austin, TX 78745",75.80%,2,1,,Apartment,1475,43,,0.63
+240,as167,as1671a2,"1016 W Stassney Ln, Apt 136
+Austin, TX 78745",99.90%,1,1,588,Apartment,1285,126,2.192,0.03
+241,as167,as1671a2,"1016 W Stassney Ln, Apt 122
+Austin, TX 78745",99.90%,1,1,588,Apartment,1355,113,2.302,0.03
+242,as167,as1671a2,"1016 W Stassney Ln, Apt 148
+Austin, TX 78745",95.90%,1,1,708,Apartment,1355,120,1.912,0.03
+243,as167,as1671a2,"1020 W Stassney Ln, Unit 248
+Austin, TX 78745",95.80%,1,1,708,Apartment,1455,118,2.062,0.06
+244,as167,as1671a2,"5807 S 1st St, Unit ATC11
+Austin, TX 78745",95.80%,1,1,670,Apartment,1185,120,1.772,0.39
+245,as167,as1671a2,"1020 W Stassney Ln, Unit 165
+Austin, TX 78745",95.80%,1,1,708,Apartment,1358,127,1.922,0.07
+246,as167,as1671a2,"1016 W Stassney Ln
+Austin, TX 78745",88.30%,1,1,,Apartment,1105,1,,0.03
+247,as167,as1671a2,"1005 W Stassney Ln, Unit 25203
+Austin, TX 78745",88.00%,1,1,,Apartment,1015,1,,0.1
+248,as167,as1671a2,"714 Turtle Creek Blvd, Unit 156
+Austin, TX 78745",87.10%,1,1,,Apartment,1249,126,,0.38
+249,as167,as1671a2,"5816 S 1st St
+Austin, TX 78745",83.60%,1,1,,Single Family,1199,122,,0.36
+250,as167,as1671a2,"1005 W Stassney Ln
+Austin, TX 78745",83.50%,1,1,650,Condo,975,1,1.502,0.1
+251,as167,as1671a2,"5304 Saint Georges Grn, Apt A
+Austin, TX 78745",80.50%,2,1,840,Apartment,1000,204,1.192,0.59
+252,as167,as1671a2,"1005 W Stassney Ln, Unit 25202
+Austin, TX 78745",77.60%,Studio,1,,Apartment,1140,3,,0.1
+253,as167,as1671a2,"1005 W Stassney Ln, Unit 25201
+Austin, TX 78745",77.60%,Studio,1,,Apartment,975,1,,0.1
+254,as167,as1671a2,"811 Ramble Ln
+Austin, TX 78745",77.30%,2,1,,Apartment,1395,196,,0.15
+255,as167,as1671a2,"1018 W Stassney Ln, Unit 215
+Austin, TX 78745",77.30%,2,2,860,Apartment,1270,126,1.482,0.06
+256,as167,as1671a2,"1020 W Stassney Ln, Unit 222
+Austin, TX 78745",77.30%,2,2,860,Apartment,1327,199,1.542,0.06
+257,as167,as1671a2,"5800 Emerald Forest Dr
+Austin, TX 78745",77.10%,2,1,,Apartment,1525,28,,0.24
+258,as167,as1671a2,"6200 Soft Wind Cir
+Austin, TX 78745",76.20%,2,1,,Apartment,1450,103,,0.51
+259,as167,as1671a2,"801 Sirocco Dr
+Austin, TX 78745",76.20%,2,1,,Apartment,1375,199,,0.51
+260,as167,as1671a2-R,"1016 W Stassney Ln, Apt 136
+Austin, TX 78745",99.90%,1,1,588,Apartment,1285,126,2.192,0.03
+261,as167,as1671a2-R,"1016 W Stassney Ln, Apt 122
+Austin, TX 78745",99.90%,1,1,588,Apartment,1355,113,2.302,0.03
+262,as167,as1671a2-R,"1016 W Stassney Ln, Apt 148
+Austin, TX 78745",95.90%,1,1,708,Apartment,1355,120,1.912,0.03
+263,as167,as1671a2-R,"1020 W Stassney Ln, Unit 248
+Austin, TX 78745",95.80%,1,1,708,Apartment,1455,118,2.062,0.06
+264,as167,as1671a2-R,"5807 S 1st St, Unit ATC11
+Austin, TX 78745",95.80%,1,1,670,Apartment,1185,120,1.772,0.39
+265,as167,as1671a2-R,"1020 W Stassney Ln, Unit 165
+Austin, TX 78745",95.80%,1,1,708,Apartment,1358,127,1.922,0.07
+266,as167,as1671a2-R,"1016 W Stassney Ln
+Austin, TX 78745",88.30%,1,1,,Apartment,1105,1,,0.03
+267,as167,as1671a2-R,"1005 W Stassney Ln, Unit 25203
+Austin, TX 78745",88.00%,1,1,,Apartment,1015,1,,0.1
+268,as167,as1671a2-R,"714 Turtle Creek Blvd, Unit 156
+Austin, TX 78745",87.10%,1,1,,Apartment,1249,126,,0.38
+269,as167,as1671a2-R,"5816 S 1st St
+Austin, TX 78745",83.60%,1,1,,Single Family,1199,122,,0.36
+270,as167,as1671a2-R,"1005 W Stassney Ln
+Austin, TX 78745",83.50%,1,1,650,Condo,975,1,1.502,0.1
+271,as167,as1671a2-R,"5304 Saint Georges Grn, Apt A
+Austin, TX 78745",80.50%,2,1,840,Apartment,1000,204,1.192,0.59
+272,as167,as1671a2-R,"1005 W Stassney Ln, Unit 25202
+Austin, TX 78745",77.60%,Studio,1,,Apartment,1140,3,,0.1
+273,as167,as1671a2-R,"1005 W Stassney Ln, Unit 25201
+Austin, TX 78745",77.60%,Studio,1,,Apartment,975,1,,0.1
+274,as167,as1671a2-R,"811 Ramble Ln
+Austin, TX 78745",77.30%,2,1,,Apartment,1395,196,,0.15
+275,as167,as1671a2-R,"1018 W Stassney Ln, Unit 215
+Austin, TX 78745",77.30%,2,2,860,Apartment,1270,126,1.482,0.06
+276,as167,as1671a2-R,"1020 W Stassney Ln, Unit 222
+Austin, TX 78745",77.30%,2,2,860,Apartment,1327,199,1.542,0.06
+277,as167,as1671a2-R,"5800 Emerald Forest Dr
+Austin, TX 78745",77.10%,2,1,,Apartment,1525,28,,0.24
+278,as167,as1671a2-R,"6200 Soft Wind Cir
+Austin, TX 78745",76.20%,2,1,,Apartment,1450,103,,0.51
+279,as167,as1671a2-R,"801 Sirocco Dr
+Austin, TX 78745",76.20%,2,1,,Apartment,1375,199,,0.51
+280,as167,as1671a2-U,"1016 W Stassney Ln, Apt 136
+Austin, TX 78745",99.90%,1,1,588,Apartment,1285,126,2.192,0.03
+281,as167,as1671a2-U,"1016 W Stassney Ln, Apt 122
+Austin, TX 78745",99.90%,1,1,588,Apartment,1355,113,2.302,0.03
+282,as167,as1671a2-U,"1016 W Stassney Ln, Apt 148
+Austin, TX 78745",95.90%,1,1,708,Apartment,1355,120,1.912,0.03
+283,as167,as1671a2-U,"1020 W Stassney Ln, Unit 248
+Austin, TX 78745",95.80%,1,1,708,Apartment,1455,118,2.062,0.06
+284,as167,as1671a2-U,"5807 S 1st St, Unit ATC11
+Austin, TX 78745",95.80%,1,1,670,Apartment,1185,120,1.772,0.39
+285,as167,as1671a2-U,"1020 W Stassney Ln, Unit 165
+Austin, TX 78745",95.80%,1,1,708,Apartment,1358,127,1.922,0.07
+286,as167,as1671a2-U,"1016 W Stassney Ln
+Austin, TX 78745",88.30%,1,1,,Apartment,1105,1,,0.03
+287,as167,as1671a2-U,"1005 W Stassney Ln, Unit 25203
+Austin, TX 78745",88.00%,1,1,,Apartment,1015,1,,0.1
+288,as167,as1671a2-U,"714 Turtle Creek Blvd, Unit 156
+Austin, TX 78745",87.10%,1,1,,Apartment,1249,126,,0.38
+289,as167,as1671a2-U,"5816 S 1st St
+Austin, TX 78745",83.60%,1,1,,Single Family,1199,122,,0.36
+290,as167,as1671a2-U,"1005 W Stassney Ln
+Austin, TX 78745",83.50%,1,1,650,Condo,975,1,1.502,0.1
+291,as167,as1671a2-U,"5304 Saint Georges Grn, Apt A
+Austin, TX 78745",80.50%,2,1,840,Apartment,1000,204,1.192,0.59
+292,as167,as1671a2-U,"1005 W Stassney Ln, Unit 25202
+Austin, TX 78745",77.60%,Studio,1,,Apartment,1140,3,,0.1
+293,as167,as1671a2-U,"1005 W Stassney Ln, Unit 25201
+Austin, TX 78745",77.60%,Studio,1,,Apartment,975,1,,0.1
+294,as167,as1671a2-U,"811 Ramble Ln
+Austin, TX 78745",77.30%,2,1,,Apartment,1395,196,,0.15
+295,as167,as1671a2-U,"1018 W Stassney Ln, Unit 215
+Austin, TX 78745",77.30%,2,2,860,Apartment,1270,126,1.482,0.06
+296,as167,as1671a2-U,"1020 W Stassney Ln, Unit 222
+Austin, TX 78745",77.30%,2,2,860,Apartment,1327,199,1.542,0.06
+297,as167,as1671a2-U,"5800 Emerald Forest Dr
+Austin, TX 78745",77.10%,2,1,,Apartment,1525,28,,0.24
+298,as167,as1671a2-U,"6200 Soft Wind Cir
+Austin, TX 78745",76.20%,2,1,,Apartment,1450,103,,0.51
+299,as167,as1671a2-U,"801 Sirocco Dr
+Austin, TX 78745",76.20%,2,1,,Apartment,1375,199,,0.51
+300,as167,as1671a3,"1016 W Stassney Ln, Apt 148
+Austin, TX 78745",99.90%,1,1,708,Apartment,1355,120,1.912,0.03
+301,as167,as1671a3,"1020 W Stassney Ln, Unit 248
+Austin, TX 78745",99.80%,1,1,708,Apartment,1455,118,2.062,0.06
+302,as167,as1671a3,"1020 W Stassney Ln, Unit 165
+Austin, TX 78745",99.70%,1,1,708,Apartment,1358,127,1.922,0.07
+303,as167,as1671a3,"5807 S 1st St, Unit ATC11
+Austin, TX 78745",97.40%,1,1,670,Apartment,1185,120,1.772,0.39
+304,as167,as1671a3,"1016 W Stassney Ln, Apt 136
+Austin, TX 78745",95.90%,1,1,588,Apartment,1285,126,2.192,0.03
+305,as167,as1671a3,"1016 W Stassney Ln, Apt 122
+Austin, TX 78745",95.90%,1,1,588,Apartment,1355,113,2.302,0.03
+306,as167,as1671a3,"1016 W Stassney Ln
+Austin, TX 78745",88.30%,1,1,,Apartment,1105,1,,0.03
+307,as167,as1671a3,"1005 W Stassney Ln, Unit 25203
+Austin, TX 78745",88.00%,1,1,,Apartment,1015,1,,0.1
+308,as167,as1671a3,"714 Turtle Creek Blvd, Unit 156
+Austin, TX 78745",87.10%,1,1,,Apartment,1249,126,,0.38
+309,as167,as1671a3,"5304 Saint Georges Grn, Apt A
+Austin, TX 78745",83.90%,2,1,840,Apartment,1000,204,1.192,0.59
+310,as167,as1671a3,"1005 W Stassney Ln
+Austin, TX 78745",83.80%,1,1,650,Condo,975,1,1.502,0.1
+311,as167,as1671a3,"5816 S 1st St
+Austin, TX 78745",83.60%,1,1,,Single Family,1199,122,,0.36
+312,as167,as1671a3,"1018 W Stassney Ln, Unit 215
+Austin, TX 78745",80.50%,2,2,860,Apartment,1270,126,1.482,0.06
+313,as167,as1671a3,"1020 W Stassney Ln, Unit 222
+Austin, TX 78745",80.50%,2,2,860,Apartment,1327,199,1.542,0.06
+314,as167,as1671a3,"714 Turtle Creek Blvd, # 3-118
+Austin, TX 78745",78.40%,2,2,915,Apartment,1625,1,1.782,0.38
+315,as167,as1671a3,"714 Turtle Creek Blvd, # 2-113
+Austin, TX 78745",78.40%,2,2,915,Apartment,1545,3,1.692,0.38
+316,as167,as1671a3,"714 Turtle Creek Blvd, # 3-123
+Austin, TX 78745",78.40%,2,2,915,Apartment,1625,1,1.782,0.38
+317,as167,as1671a3,"714 Turtle Creek Blvd, # 3-219
+Austin, TX 78745",78.40%,2,2,915,Apartment,1625,74,1.782,0.38
+318,as167,as1671a3,"714 Turtle Creek Blvd, # 6-143
+Austin, TX 78745",78.40%,2,2,915,Apartment,1625,74,1.782,0.38
+319,as167,as1671a3,"5807 S 1st St, Unit ATC22
+Austin, TX 78745",78.30%,2,2,915,Apartment,1455,120,1.592,0.39
+320,as167,as1671a3-R,"1016 W Stassney Ln, Apt 148
+Austin, TX 78745",99.90%,1,1,708,Apartment,1355,120,1.912,0.03
+321,as167,as1671a3-R,"1020 W Stassney Ln, Unit 248
+Austin, TX 78745",99.80%,1,1,708,Apartment,1455,118,2.062,0.06
+322,as167,as1671a3-R,"1020 W Stassney Ln, Unit 165
+Austin, TX 78745",99.70%,1,1,708,Apartment,1358,127,1.922,0.07
+323,as167,as1671a3-R,"5807 S 1st St, Unit ATC11
+Austin, TX 78745",97.40%,1,1,670,Apartment,1185,120,1.772,0.39
+324,as167,as1671a3-R,"1016 W Stassney Ln, Apt 136
+Austin, TX 78745",95.90%,1,1,588,Apartment,1285,126,2.192,0.03
+325,as167,as1671a3-R,"1016 W Stassney Ln, Apt 122
+Austin, TX 78745",95.90%,1,1,588,Apartment,1355,113,2.302,0.03
+326,as167,as1671a3-R,"1016 W Stassney Ln
+Austin, TX 78745",88.30%,1,1,,Apartment,1105,1,,0.03
+327,as167,as1671a3-R,"1005 W Stassney Ln, Unit 25203
+Austin, TX 78745",88.00%,1,1,,Apartment,1015,1,,0.1
+328,as167,as1671a3-R,"714 Turtle Creek Blvd, Unit 156
+Austin, TX 78745",87.10%,1,1,,Apartment,1249,126,,0.38
+329,as167,as1671a3-R,"5304 Saint Georges Grn, Apt A
+Austin, TX 78745",83.90%,2,1,840,Apartment,1000,204,1.192,0.59
+330,as167,as1671a3-R,"1005 W Stassney Ln
+Austin, TX 78745",83.80%,1,1,650,Condo,975,1,1.502,0.1
+331,as167,as1671a3-R,"5816 S 1st St
+Austin, TX 78745",83.60%,1,1,,Single Family,1199,122,,0.36
+332,as167,as1671a3-R,"1018 W Stassney Ln, Unit 215
+Austin, TX 78745",80.50%,2,2,860,Apartment,1270,126,1.482,0.06
+333,as167,as1671a3-R,"1020 W Stassney Ln, Unit 222
+Austin, TX 78745",80.50%,2,2,860,Apartment,1327,199,1.542,0.06
+334,as167,as1671a3-R,"714 Turtle Creek Blvd, # 3-118
+Austin, TX 78745",78.40%,2,2,915,Apartment,1625,1,1.782,0.38
+335,as167,as1671a3-R,"714 Turtle Creek Blvd, # 2-113
+Austin, TX 78745",78.40%,2,2,915,Apartment,1545,3,1.692,0.38
+336,as167,as1671a3-R,"714 Turtle Creek Blvd, # 3-123
+Austin, TX 78745",78.40%,2,2,915,Apartment,1625,1,1.782,0.38
+337,as167,as1671a3-R,"714 Turtle Creek Blvd, # 3-219
+Austin, TX 78745",78.40%,2,2,915,Apartment,1625,74,1.782,0.38
+338,as167,as1671a3-R,"714 Turtle Creek Blvd, # 6-143
+Austin, TX 78745",78.40%,2,2,915,Apartment,1625,74,1.782,0.38
+339,as167,as1671a3-R,"5807 S 1st St, Unit ATC22
+Austin, TX 78745",78.30%,2,2,915,Apartment,1455,120,1.592,0.39
+340,as167,as1672c1,"1018 W Stassney Ln, Unit 215
+Austin, TX 78745",99.80%,2,2,860,Apartment,1270,126,1.482,0.06
+341,as167,as1672c1,"1020 W Stassney Ln, Unit 222
+Austin, TX 78745",99.70%,2,2,860,Apartment,1327,199,1.542,0.06
+342,as167,as1672c1,"714 Turtle Creek Blvd, # 3-118
+Austin, TX 78745",97.40%,2,2,915,Apartment,1625,1,1.782,0.38
+343,as167,as1672c1,"714 Turtle Creek Blvd, # 2-113
+Austin, TX 78745",97.40%,2,2,915,Apartment,1545,3,1.692,0.38
+344,as167,as1672c1,"714 Turtle Creek Blvd, # 3-123
+Austin, TX 78745",97.40%,2,2,915,Apartment,1625,1,1.782,0.38
+345,as167,as1672c1,"714 Turtle Creek Blvd, # 3-219
+Austin, TX 78745",97.30%,2,2,915,Apartment,1625,74,1.782,0.38
+346,as167,as1672c1,"714 Turtle Creek Blvd, # 6-143
+Austin, TX 78745",97.30%,2,2,915,Apartment,1625,74,1.782,0.38
+347,as167,as1672c1,"5807 S 1st St, Unit ATC22
+Austin, TX 78745",97.30%,2,2,915,Apartment,1455,120,1.592,0.39
+348,as167,as1672c1,"5304 Saint Georges Grn, Apt A
+Austin, TX 78745",92.80%,2,1,840,Apartment,1000,204,1.192,0.59
+349,as167,as1672c1,"5801 Libyan Dr
+Austin, TX 78745",87.20%,2,2,,Apartment,1500,100,,0.35
+350,as167,as1672c1,"714 Turtle Creek Blvd, Unit 2136
+Austin, TX 78745",87.10%,2,2,,Apartment,1545,126,,0.38
+351,as167,as1672c1,"5112 S 1st St
+Austin, TX 78745",86.90%,2,2,,Apartment,1195,1,,0.46
+352,as167,as1672c1,"6303 Emerald Forest Dr, Unit A
+Austin, TX 78745",83.90%,2,2,850,Multi-Family,1575,197,1.852,0.56
+353,as167,as1672c1,"6305 Emerald Forest Dr, Unit B
+Austin, TX 78745",83.80%,2,2,871,Multi-Family,1500,118,1.722,0.57
+354,as167,as1672c1,"6209 Emerald Forest Dr, Unit A
+Austin, TX 78745",83.40%,2,2,896,Multi-Family,1550,122,1.732,0.52
+355,as167,as1672c1,"811 Ramble Ln
+Austin, TX 78745",83.20%,2,1,,Apartment,1395,196,,0.15
+356,as167,as1672c1,"5800 Emerald Forest Dr
+Austin, TX 78745",82.90%,2,1,,Apartment,1525,28,,0.24
+357,as167,as1672c1,"6200 Soft Wind Cir
+Austin, TX 78745",82.00%,2,1,,Apartment,1450,103,,0.51
+358,as167,as1672c1,"801 Sirocco Dr
+Austin, TX 78745",82.00%,2,1,,Apartment,1375,199,,0.51
+359,as167,as1672c1,"5304 Saint Georges Grn
+Austin, TX 78745",81.70%,2,1,,Apartment,1000,203,,0.59
+360,as167,as1672c1-R,"1018 W Stassney Ln, Unit 215
+Austin, TX 78745",99.80%,2,2,860,Apartment,1270,126,1.482,0.06
+361,as167,as1672c1-R,"1020 W Stassney Ln, Unit 222
+Austin, TX 78745",99.70%,2,2,860,Apartment,1327,199,1.542,0.06
+362,as167,as1672c1-R,"714 Turtle Creek Blvd, # 3-118
+Austin, TX 78745",97.40%,2,2,915,Apartment,1625,1,1.782,0.38
+363,as167,as1672c1-R,"714 Turtle Creek Blvd, # 2-113
+Austin, TX 78745",97.40%,2,2,915,Apartment,1545,3,1.692,0.38
+364,as167,as1672c1-R,"714 Turtle Creek Blvd, # 3-123
+Austin, TX 78745",97.40%,2,2,915,Apartment,1625,1,1.782,0.38
+365,as167,as1672c1-R,"714 Turtle Creek Blvd, # 3-219
+Austin, TX 78745",97.30%,2,2,915,Apartment,1625,74,1.782,0.38
+366,as167,as1672c1-R,"714 Turtle Creek Blvd, # 6-143
+Austin, TX 78745",97.30%,2,2,915,Apartment,1625,74,1.782,0.38
+367,as167,as1672c1-R,"5807 S 1st St, Unit ATC22
+Austin, TX 78745",97.30%,2,2,915,Apartment,1455,120,1.592,0.39
+368,as167,as1672c1-R,"5304 Saint Georges Grn, Apt A
+Austin, TX 78745",92.80%,2,1,840,Apartment,1000,204,1.192,0.59
+369,as167,as1672c1-R,"5801 Libyan Dr
+Austin, TX 78745",87.20%,2,2,,Apartment,1500,100,,0.35
+370,as167,as1672c1-R,"714 Turtle Creek Blvd, Unit 2136
+Austin, TX 78745",87.10%,2,2,,Apartment,1545,126,,0.38
+371,as167,as1672c1-R,"5112 S 1st St
+Austin, TX 78745",86.90%,2,2,,Apartment,1195,1,,0.46
+372,as167,as1672c1-R,"6303 Emerald Forest Dr, Unit A
+Austin, TX 78745",83.90%,2,2,850,Multi-Family,1575,197,1.852,0.56
+373,as167,as1672c1-R,"6305 Emerald Forest Dr, Unit B
+Austin, TX 78745",83.80%,2,2,871,Multi-Family,1500,118,1.722,0.57
+374,as167,as1672c1-R,"6209 Emerald Forest Dr, Unit A
+Austin, TX 78745",83.40%,2,2,896,Multi-Family,1550,122,1.732,0.52
+375,as167,as1672c1-R,"811 Ramble Ln
+Austin, TX 78745",83.20%,2,1,,Apartment,1395,196,,0.15
+376,as167,as1672c1-R,"5800 Emerald Forest Dr
+Austin, TX 78745",82.90%,2,1,,Apartment,1525,28,,0.24
+377,as167,as1672c1-R,"6200 Soft Wind Cir
+Austin, TX 78745",82.00%,2,1,,Apartment,1450,103,,0.51
+378,as167,as1672c1-R,"801 Sirocco Dr
+Austin, TX 78745",82.00%,2,1,,Apartment,1375,199,,0.51
+379,as167,as1672c1-R,"5304 Saint Georges Grn
+Austin, TX 78745",81.70%,2,1,,Apartment,1000,203,,0.59
+380,as167,as1672c1-U,"1018 W Stassney Ln, Unit 215
+Austin, TX 78745",99.80%,2,2,860,Apartment,1270,126,1.482,0.06
+381,as167,as1672c1-U,"1020 W Stassney Ln, Unit 222
+Austin, TX 78745",99.70%,2,2,860,Apartment,1327,199,1.542,0.06
+382,as167,as1672c1-U,"714 Turtle Creek Blvd, # 3-118
+Austin, TX 78745",97.40%,2,2,915,Apartment,1625,1,1.782,0.38
+383,as167,as1672c1-U,"714 Turtle Creek Blvd, # 2-113
+Austin, TX 78745",97.40%,2,2,915,Apartment,1545,3,1.692,0.38
+384,as167,as1672c1-U,"714 Turtle Creek Blvd, # 3-123
+Austin, TX 78745",97.40%,2,2,915,Apartment,1625,1,1.782,0.38
+385,as167,as1672c1-U,"714 Turtle Creek Blvd, # 3-219
+Austin, TX 78745",97.30%,2,2,915,Apartment,1625,74,1.782,0.38
+386,as167,as1672c1-U,"714 Turtle Creek Blvd, # 6-143
+Austin, TX 78745",97.30%,2,2,915,Apartment,1625,74,1.782,0.38
+387,as167,as1672c1-U,"5807 S 1st St, Unit ATC22
+Austin, TX 78745",97.30%,2,2,915,Apartment,1455,120,1.592,0.39
+388,as167,as1672c1-U,"5304 Saint Georges Grn, Apt A
+Austin, TX 78745",92.80%,2,1,840,Apartment,1000,204,1.192,0.59
+389,as167,as1672c1-U,"5801 Libyan Dr
+Austin, TX 78745",87.20%,2,2,,Apartment,1500,100,,0.35
+390,as167,as1672c1-U,"714 Turtle Creek Blvd, Unit 2136
+Austin, TX 78745",87.10%,2,2,,Apartment,1545,126,,0.38
+391,as167,as1672c1-U,"5112 S 1st St
+Austin, TX 78745",86.90%,2,2,,Apartment,1195,1,,0.46
+392,as167,as1672c1-U,"6303 Emerald Forest Dr, Unit A
+Austin, TX 78745",83.90%,2,2,850,Multi-Family,1575,197,1.852,0.56
+393,as167,as1672c1-U,"6305 Emerald Forest Dr, Unit B
+Austin, TX 78745",83.80%,2,2,871,Multi-Family,1500,118,1.722,0.57
+394,as167,as1672c1-U,"6209 Emerald Forest Dr, Unit A
+Austin, TX 78745",83.40%,2,2,896,Multi-Family,1550,122,1.732,0.52
+395,as167,as1672c1-U,"811 Ramble Ln
+Austin, TX 78745",83.20%,2,1,,Apartment,1395,196,,0.15
+396,as167,as1672c1-U,"5800 Emerald Forest Dr
+Austin, TX 78745",82.90%,2,1,,Apartment,1525,28,,0.24
+397,as167,as1672c1-U,"6200 Soft Wind Cir
+Austin, TX 78745",82.00%,2,1,,Apartment,1450,103,,0.51
+398,as167,as1672c1-U,"801 Sirocco Dr
+Austin, TX 78745",82.00%,2,1,,Apartment,1375,199,,0.51
+399,as167,as1672c1-U,"5304 Saint Georges Grn
+Austin, TX 78745",81.70%,2,1,,Apartment,1000,203,,0.59
+400,as168,as1681a1,"3605 Steck Ave, Apt 1116
+Austin, TX 78759",81.00%,1,1,560,Apartment,1167,42,2.082,0.55
+401,as168,as1681a1,"7630 Wood Hollow Dr, Apt 251
+Austin, TX 78731",80.50%,1,1,422,Apartment,930,26,2.202,0.82
+402,as168,as1681a1,"7630 Wood Hollow Dr, Apt 280
+Austin, TX 78731",80.40%,1,1,550,Apartment,1240,3,2.252,0.82
+403,as168,as1681a1,"7630 Wood Hollow Dr, Apt 286
+Austin, TX 78731",80.40%,1,1,550,Apartment,1178,3,2.142,0.82
+404,as168,as1681a1,"7630 Wood Hollow Dr, Apt 283
+Austin, TX 78731",80.40%,1,1,550,Apartment,1178,3,2.142,0.82
+405,as168,as1681a1,"7630 Wood Hollow Dr, Apt 383
+Austin, TX 78731",80.40%,1,1,550,Apartment,1240,3,2.252,0.82
+406,as168,as1681a1,"Unnamed Rd, Unit 114
+Austin, TX 78759",79.60%,1,1,629,Apartment,1284,118,2.042,0.29
+407,as168,as1681a1,"4027 Steck Ave, Unit 1412
+Austin, TX 78759",79.40%,1,1,663,Apartment,1150,118,1.732,0.08
+408,as168,as1681a1,"8210 Bent Tree Rd, Apt 153
+Austin, TX 78759",78.30%,1,1,635,Condo,1095,207,1.722,0.63
+409,as168,as1681a1,"3605 Steck Ave, Unit 111
+Austin, TX 78759",77.60%,1,1,670,Apartment,1152,196,1.722,0.55
+410,as168,as1681a1,"3605 Steck Ave, Unit 112
+Austin, TX 78759",77.10%,1,1,690,Apartment,1062,196,1.542,0.55
+411,as168,as1681a1,"4417 Spicewood Springs Rd, Unit 1402
+Austin, TX 78759",76.90%,1,1,744,Apartment,1337,118,1.802,0.28
+412,as168,as1681a1,"8100 N Mopac Expy, # 06-128
+Austin, TX 78759",76.30%,1,1,702,Apartment,999,62,1.422,0.74
+413,as168,as1681a1,"8106 N Mopac Expy, Unit 782
+Austin, TX 78759",76.00%,1,1,702,Apartment,969,118,1.382,0.8
+414,as168,as1681a1,"8100 N Mopac Expy, # 02-108
+Austin, TX 78759",75.30%,1,1,750,Apartment,1089,74,1.452,0.74
+415,as168,as1681a1,"4021 Steck Ave
+Austin, TX 78759",74.30%,1,1,,Apartment,1330,1,,0.03
+416,as168,as1681a1,"4711 Spicewood Springs Rd, Unit 2-211
+Austin, TX 78759",74.30%,1,1,831,Condo,1850,182,2.232,0.58
+417,as168,as1681a1,"8309 Bradford Edward Cv, Unit A
+Austin, TX 78759",74.00%,2,1.5,"1,000",Multi-Family,1800,101,1.802,0.32
+418,as168,as1681a1,"7630 Wood Hollow Dr, Apt 134
+Austin, TX 78731",73.80%,1,1,818,Apartment,1259,3,1.542,0.82
+419,as168,as1681a1,"8100 N Mopac Expy
+Austin, TX 78759",72.00%,1,1,,Apartment,1329,12,,0.74
+420,as168,as1681a1-R,"3605 Steck Ave, Apt 1116
+Austin, TX 78759",81.00%,1,1,560,Apartment,1167,42,2.082,0.55
+421,as168,as1681a1-R,"7630 Wood Hollow Dr, Apt 251
+Austin, TX 78731",80.50%,1,1,422,Apartment,930,26,2.202,0.82
+422,as168,as1681a1-R,"7630 Wood Hollow Dr, Apt 280
+Austin, TX 78731",80.40%,1,1,550,Apartment,1240,3,2.252,0.82
+423,as168,as1681a1-R,"7630 Wood Hollow Dr, Apt 286
+Austin, TX 78731",80.40%,1,1,550,Apartment,1178,3,2.142,0.82
+424,as168,as1681a1-R,"7630 Wood Hollow Dr, Apt 283
+Austin, TX 78731",80.40%,1,1,550,Apartment,1178,3,2.142,0.82
+425,as168,as1681a1-R,"7630 Wood Hollow Dr, Apt 383
+Austin, TX 78731",80.40%,1,1,550,Apartment,1240,3,2.252,0.82
+426,as168,as1681a1-R,"Unnamed Rd, Unit 114
+Austin, TX 78759",79.60%,1,1,629,Apartment,1284,118,2.042,0.29
+427,as168,as1681a1-R,"4027 Steck Ave, Unit 1412
+Austin, TX 78759",79.40%,1,1,663,Apartment,1150,118,1.732,0.08
+428,as168,as1681a1-R,"8210 Bent Tree Rd, Apt 153
+Austin, TX 78759",78.30%,1,1,635,Condo,1095,207,1.722,0.63
+429,as168,as1681a1-R,"3605 Steck Ave, Unit 111
+Austin, TX 78759",77.60%,1,1,670,Apartment,1152,196,1.722,0.55
+430,as168,as1681a1-R,"3605 Steck Ave, Unit 112
+Austin, TX 78759",77.10%,1,1,690,Apartment,1062,196,1.542,0.55
+431,as168,as1681a1-R,"4417 Spicewood Springs Rd, Unit 1402
+Austin, TX 78759",76.90%,1,1,744,Apartment,1337,118,1.802,0.28
+432,as168,as1681a1-R,"8100 N Mopac Expy, # 06-128
+Austin, TX 78759",76.30%,1,1,702,Apartment,999,62,1.422,0.74
+433,as168,as1681a1-R,"8106 N Mopac Expy, Unit 782
+Austin, TX 78759",76.00%,1,1,702,Apartment,969,118,1.382,0.8
+434,as168,as1681a1-R,"8100 N Mopac Expy, # 02-108
+Austin, TX 78759",75.30%,1,1,750,Apartment,1089,74,1.452,0.74
+435,as168,as1681a1-R,"4021 Steck Ave
+Austin, TX 78759",74.30%,1,1,,Apartment,1330,1,,0.03
+436,as168,as1681a1-R,"4711 Spicewood Springs Rd, Unit 2-211
+Austin, TX 78759",74.30%,1,1,831,Condo,1850,182,2.232,0.58
+437,as168,as1681a1-R,"8309 Bradford Edward Cv, Unit A
+Austin, TX 78759",74.00%,2,1.5,"1,000",Multi-Family,1800,101,1.802,0.32
+438,as168,as1681a1-R,"7630 Wood Hollow Dr, Apt 134
+Austin, TX 78731",73.80%,1,1,818,Apartment,1259,3,1.542,0.82
+439,as168,as1681a1-R,"8100 N Mopac Expy
+Austin, TX 78759",72.00%,1,1,,Apartment,1329,12,,0.74
+440,as168,as1681a2,"Unnamed Rd, Unit 114
+Austin, TX 78759",84.40%,1,1,629,Apartment,1284,118,2.042,0.29
+441,as168,as1681a2,"4027 Steck Ave, Unit 1412
+Austin, TX 78759",83.90%,1,1,663,Apartment,1150,118,1.732,0.08
+442,as168,as1681a2,"8210 Bent Tree Rd, Apt 153
+Austin, TX 78759",83.00%,1,1,635,Condo,1095,207,1.722,0.63
+443,as168,as1681a2,"3605 Steck Ave, Apt 1116
+Austin, TX 78759",82.30%,1,1,560,Apartment,1167,42,2.082,0.55
+444,as168,as1681a2,"3605 Steck Ave, Unit 111
+Austin, TX 78759",82.10%,1,1,670,Apartment,1152,196,1.722,0.55
+445,as168,as1681a2,"3605 Steck Ave, Unit 112
+Austin, TX 78759",81.50%,1,1,690,Apartment,1062,196,1.542,0.55
+446,as168,as1681a2,"7630 Wood Hollow Dr, Apt 280
+Austin, TX 78731",81.00%,1,1,550,Apartment,1240,3,2.252,0.82
+447,as168,as1681a2,"7630 Wood Hollow Dr, Apt 286
+Austin, TX 78731",81.00%,1,1,550,Apartment,1178,3,2.142,0.82
+448,as168,as1681a2,"7630 Wood Hollow Dr, Apt 283
+Austin, TX 78731",81.00%,1,1,550,Apartment,1178,3,2.142,0.82
+449,as168,as1681a2,"7630 Wood Hollow Dr, Apt 383
+Austin, TX 78731",81.00%,1,1,550,Apartment,1240,3,2.252,0.82
+450,as168,as1681a2,"4417 Spicewood Springs Rd, Unit 1402
+Austin, TX 78759",80.90%,1,1,744,Apartment,1337,118,1.802,0.28
+451,as168,as1681a2,"8100 N Mopac Expy, # 06-128
+Austin, TX 78759",80.60%,1,1,702,Apartment,999,62,1.422,0.74
+452,as168,as1681a2,"8106 N Mopac Expy, Unit 782
+Austin, TX 78759",80.30%,1,1,702,Apartment,969,118,1.382,0.8
+453,as168,as1681a2,"8100 N Mopac Expy, # 02-108
+Austin, TX 78759",79.30%,1,1,750,Apartment,1089,74,1.452,0.74
+454,as168,as1681a2,"4711 Spicewood Springs Rd, Unit 2-211
+Austin, TX 78759",77.90%,1,1,831,Condo,1850,182,2.232,0.58
+455,as168,as1681a2,"7630 Wood Hollow Dr, Apt 134
+Austin, TX 78731",77.40%,1,1,818,Apartment,1259,3,1.542,0.82
+456,as168,as1681a2,"8309 Bradford Edward Cv, Unit A
+Austin, TX 78759",77.10%,2,1.5,"1,000",Multi-Family,1800,101,1.802,0.32
+457,as168,as1681a2,"7630 Wood Hollow Dr, Apt 251
+Austin, TX 78731",76.10%,1,1,422,Apartment,930,26,2.202,0.82
+458,as168,as1681a2,"4021 Steck Ave
+Austin, TX 78759",74.30%,1,1,,Apartment,1330,1,,0.03
+459,as168,as1681a2,"8112 Sonnet Ave, Apt 102
+Austin, TX 78759",74.20%,2,1.5,"1,147",Multi-Family,1330,79,1.162,0.65
+460,as168,as1681a2-R,"Unnamed Rd, Unit 114
+Austin, TX 78759",84.40%,1,1,629,Apartment,1284,118,2.042,0.29
+461,as168,as1681a2-R,"4027 Steck Ave, Unit 1412
+Austin, TX 78759",83.90%,1,1,663,Apartment,1150,118,1.732,0.08
+462,as168,as1681a2-R,"8210 Bent Tree Rd, Apt 153
+Austin, TX 78759",83.00%,1,1,635,Condo,1095,207,1.722,0.63
+463,as168,as1681a2-R,"3605 Steck Ave, Apt 1116
+Austin, TX 78759",82.30%,1,1,560,Apartment,1167,42,2.082,0.55
+464,as168,as1681a2-R,"3605 Steck Ave, Unit 111
+Austin, TX 78759",82.10%,1,1,670,Apartment,1152,196,1.722,0.55
+465,as168,as1681a2-R,"3605 Steck Ave, Unit 112
+Austin, TX 78759",81.50%,1,1,690,Apartment,1062,196,1.542,0.55
+466,as168,as1681a2-R,"7630 Wood Hollow Dr, Apt 280
+Austin, TX 78731",81.00%,1,1,550,Apartment,1240,3,2.252,0.82
+467,as168,as1681a2-R,"7630 Wood Hollow Dr, Apt 286
+Austin, TX 78731",81.00%,1,1,550,Apartment,1178,3,2.142,0.82
+468,as168,as1681a2-R,"7630 Wood Hollow Dr, Apt 283
+Austin, TX 78731",81.00%,1,1,550,Apartment,1178,3,2.142,0.82
+469,as168,as1681a2-R,"7630 Wood Hollow Dr, Apt 383
+Austin, TX 78731",81.00%,1,1,550,Apartment,1240,3,2.252,0.82
