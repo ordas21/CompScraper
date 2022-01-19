@@ -41,9 +41,9 @@ for x in range(0, len(df)):
     else:
         beds.append(df['bed'][x])
     try:
-        rent.append((df['rent'][x]).replace(',','').replace('$',''))
+        rent.append(((df['rent'][x]).splitlines()[0]).replace(',','').replace('$',''))
     except:
-        rent.append(df['rent'][x])
+        rent.append((df['rent'][x]).splitlines()[0]).replace('$','')
     try:
         sqft.append((df['sqft'][x]).replace(',',''))
     except:
