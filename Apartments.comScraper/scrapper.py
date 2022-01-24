@@ -9,7 +9,11 @@ import re
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-
+from multiprocessing.dummy import Pool  # This is a thread-based Pool
+from multiprocessing import cpu_count
+from datetime import datetime
+from pyzipcode import ZipCodeDatabase
+import psycopg2
 
 def prettify_text(data):
     """Given a string, replace unicode chars and make it prettier"""
@@ -193,6 +197,7 @@ def parse_different_links(url):
     
   fields = {}
   fields['data'] = []
+  links = [] 
 
   """For every city page, iterate over the number of pages the city has, UPDATE RANGE """
   
@@ -211,13 +216,50 @@ def parse_different_links(url):
     all_links = soup.select('.property-title-wrapper')
     """For every page, iterate over every listing"""
     counter = 1
+    
     for page in all_links:
         print(counter)
         counter = counter + 1
         link = page.find('a').attrs['href']
+        links.append(link)
         fields['data'].append(parse_apartment_information(url = link))
-
+    #print(links)
+    #pool = Pool(cpu_count() * 2)  # Creates a Pool with cpu_count * 2 threads.
+    #result = pool.map(parse_apartment_information, links)
+    #fields['data'].append(result)
   return fields
+
+def GetURL():
+    conn = psycopg2.connect(
+       database="postgres", user='propdata_user', password='propdata_password', host='propdatadb.cmea3vckvopo.us-east-1.rds.amazonaws.com', port= '5432')
+    conn.autocommit = True
+    cursor = conn.cursor()
+
+    cursor.execute(f'''
+    SELECT Distinct city, p.state, zip
+    FROM dev.resman_properties p 
+    where for_date = '2022-01-20'
+                    ''')
+    result = cursor.fetchall();
+    conn.close()
+
+    locationsdf = pd.DataFrame.from_records(result, columns = ['city','state','zip'])
+    zcdb = ZipCodeDatabase()
+    zips = []
+    url = []
+    cities = []
+    for x in range(0,len(locationsdf)):
+        target_zip = locationsdf['zip'][x]
+        for z in zcdb.get_zipcodes_around_radius(f'{target_zip}', 4):
+            zips.append(z.zip)
+
+    for z in zips:
+        city = zcdb[z].city.replace(" ", "_").lower()
+        cities.append(city)
+        state = zcdb[z].state.lower()
+        url.append(f'https://www.apartments.com/{city}-{state}-{z}/')
+        
+    return url
 
 austin_zip_codes=[
 78613,78617,78641,78653,
@@ -233,13 +275,37 @@ austin_zip_codes=[
 78750,78751,78752,78753,
 78754,78756,78757,78758,
 78759]
+
+
 frames = []
-for zipcode in austin_zip_codes:
-    zipcode = str(zipcode)
-    run = parse_different_links(url = f'https://www.apartments.com/austin-tx-{zipcode}/')
+urls= GetURL()
+now = datetime.now()
+dt_string = now.strftime("%d_%m_%Y")
+
+for url in urls:
+    run = parse_different_links(url)
     df = pd.DataFrame(run['data'])
     frames.append(df)
     result = pd.concat(frames)
-    result.to_csv('austin_tx.csv')
+    result.to_csv(f'austin_tx_{dt_string}.csv')
 
+"""
+for zipcode in austin_zip_codes:
+    zipcode = str(zipcode)
+    url = f'https://www.apartments.com/austin-tx-{zipcode}/'
+    run = parse_different_links(url)
+    df = pd.DataFrame(run['data'])
+    frames.append(df)
+    result = pd.concat(frames)
+    result.to_csv(f'austin_tx_{dt_string}.csv')
+"""
 
+"""
+fileName = "SomeSiteValidURLs.csv"
+pool = Pool(cpu_count() * 2)  # Creates a Pool with cpu_count * 2 threads.
+results = pool.map(parse_different_links, urls)  # results is a list of all the placeHolder lists returned from each call to crawlToCSV
+with open("Output.csv", "w") as f:
+    writeFile = csv.writer(f)
+    for result in results:
+        writeFile.writerow(result)
+"""
