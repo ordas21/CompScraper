@@ -1,15 +1,14 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 27 14:18:42 2021
-
-@author: MarianaMaroto
-"""
-
+import os
+import sys
 import re
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-
+from multiprocessing.dummy import Pool  # This is a thread-based Pool
+from multiprocessing import cpu_count
+from datetime import datetime
+from pyzipcode import ZipCodeDatabase
+import psycopg2
 
 def prettify_text(data):
     """Given a string, replace unicode chars and make it prettier"""
@@ -189,18 +188,33 @@ def parse_apartment_information(url):
     return fields
 
 
+
+#YOU FINSIHED HERE< COMPLETE WORK WITH PAGE RANGE
+#
 def parse_different_links(url):
     
   fields = {}
   fields['data'] = []
+  links = []
+  
 
   """For every city page, iterate over the number of pages the city has, UPDATE RANGE """
-  
-  for i in range(1,29):
+  try:
+      headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'}
+      page = requests.get(url, headers=headers, timeout = 10)
+      soup = BeautifulSoup(page.content, 'html.parser')
+      paging = soup.find("div",{"id":"placardContainer"}).find("span",{"class":"pageRange"}).text
+      pg_len = [int(i) for i in paging.split() if i.isdigit()]
+      start_page = pg_len[0]
+      last_page = pg_len[1]
+  except:
+      start_page = 1
+      last_page = 0
+
+  for i in range(int(start_page),int(last_page) + 1):
 
     url_final = url+str(i)+'/'
-    print(url_final)
-
+    
     # read the current page
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'}
     page = requests.get(url_final, headers=headers, timeout = 10)
@@ -211,35 +225,59 @@ def parse_different_links(url):
     all_links = soup.select('.property-title-wrapper')
     """For every page, iterate over every listing"""
     counter = 1
+    
     for page in all_links:
-        print(counter)
         counter = counter + 1
         link = page.find('a').attrs['href']
+        links.append(link)
         fields['data'].append(parse_apartment_information(url = link))
-
   return fields
 
-austin_zip_codes=[
-78613,78617,78641,78653,
-78660,78681,78701,78702,
-78703,78704,78705,78712,
-78717,78719,78721,78722,
-78723,78724,78725,78726,
-78727,78728,78729,78730,
-78731,78732,78733,78734,
-78735,78736,78738,78739,
-78741,78742,78744,78745,
-78746,78747,78748,78749,
-78750,78751,78752,78753,
-78754,78756,78757,78758,
-78759]
+def GetURL():
+    conn = psycopg2.connect(
+       database="postgres", user='propdata_user', password='propdata_password', host='propdatadb.cmea3vckvopo.us-east-1.rds.amazonaws.com', port= '5432')
+    conn.autocommit = True
+    cursor = conn.cursor()
+
+    cursor.execute(f'''
+    SELECT Distinct city, p.state, zip
+    FROM dev.resman_properties p 
+    where for_date = '2022-01-20'
+                    ''')
+    result = cursor.fetchall();
+    conn.close()
+
+    locationsdf = pd.DataFrame.from_records(result, columns = ['city','state','zip'])
+    zcdb = ZipCodeDatabase()
+    zips = []
+    url = []
+    cities = []
+    for x in range(0,len(locationsdf)):
+        target_zip = locationsdf['zip'][x]
+        for z in zcdb.get_zipcodes_around_radius(f'{target_zip}', 4):
+            zips.append(z.zip)
+
+    for z in zips:
+        city = zcdb[z].city.replace(" ", "_").lower()
+        cities.append(city)
+        state = zcdb[z].state.lower()
+        url.append(f'https://www.apartments.com/{city}-{state}-{z}/')
+        
+    return url
+
 frames = []
-for zipcode in austin_zip_codes:
-    zipcode = str(zipcode)
-    run = parse_different_links(url = f'https://www.apartments.com/austin-tx-{zipcode}/')
+urls= GetURL()
+now = datetime.now()
+dt_string = now.strftime("%d_%m_%Y")
+count = 0
+
+for url in urls:
+    count += 1
+    progress = str(count)+'/'+str(len(urls))
+    print(progress)
+    run = parse_different_links(url)
     df = pd.DataFrame(run['data'])
     frames.append(df)
     result = pd.concat(frames)
-    result.to_csv('austin_tx.csv')
-
-
+    result.to_csv(f'austin_tx_{dt_string}.csv')
+    

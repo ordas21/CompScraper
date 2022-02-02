@@ -1,0 +1,8 @@
+EXPLAIN ANALYZE SELECT *,
+    lat_lon <-> {home_lat_lon} As radius
+    FROM comp_rentals
+    ORDER BY lat_lon <-> {home_lat_lon}
+    WHERE comp_sqft BETWEEN {sqft_low} AND {sqft_high}
+    AND comp_bed = {bed_count}
+    AND comp_bath = {bath_count}
+    LIMIT 20;
