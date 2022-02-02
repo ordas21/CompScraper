@@ -195,8 +195,12 @@ def parse_different_links(url):
     
   fields = {}
   fields['data'] = []
+<<<<<<< HEAD
   links = []
   
+=======
+  links = [] 
+>>>>>>> c0765a799ca60008e4026112c5abb25669034682
 
   """For every city page, iterate over the number of pages the city has, UPDATE RANGE """
   try:
@@ -231,6 +235,13 @@ def parse_different_links(url):
         link = page.find('a').attrs['href']
         links.append(link)
         fields['data'].append(parse_apartment_information(url = link))
+<<<<<<< HEAD
+=======
+    #print(links)
+    #pool = Pool(cpu_count() * 2)  # Creates a Pool with cpu_count * 2 threads.
+    #result = pool.map(parse_apartment_information, links)
+    #fields['data'].append(result)
+>>>>>>> c0765a799ca60008e4026112c5abb25669034682
   return fields
 
 def GetURL():
@@ -265,19 +276,67 @@ def GetURL():
         
     return url
 
+<<<<<<< HEAD
+=======
+austin_zip_codes=[
+78613,78617,78641,78653,
+78660,78681,78701,78702,
+78703,78704,78705,78712,
+78717,78719,78721,78722,
+78723,78724,78725,78726,
+78727,78728,78729,78730,
+78731,78732,78733,78734,
+78735,78736,78738,78739,
+78741,78742,78744,78745,
+78746,78747,78748,78749,
+78750,78751,78752,78753,
+78754,78756,78757,78758,
+78759]
+
+
+>>>>>>> c0765a799ca60008e4026112c5abb25669034682
 frames = []
 urls= GetURL()
 now = datetime.now()
 dt_string = now.strftime("%d_%m_%Y")
+<<<<<<< HEAD
 count = 0
 
 for url in urls:
     count += 1
     progress = str(count)+'/'+str(len(urls))
     print(progress)
+=======
+
+for url in urls:
     run = parse_different_links(url)
     df = pd.DataFrame(run['data'])
     frames.append(df)
     result = pd.concat(frames)
     result.to_csv(f'austin_tx_{dt_string}.csv')
+
+"""
+for zipcode in austin_zip_codes:
+    zipcode = str(zipcode)
+    url = f'https://www.apartments.com/austin-tx-{zipcode}/'
+>>>>>>> c0765a799ca60008e4026112c5abb25669034682
+    run = parse_different_links(url)
+    df = pd.DataFrame(run['data'])
+    frames.append(df)
+    result = pd.concat(frames)
+    result.to_csv(f'austin_tx_{dt_string}.csv')
+<<<<<<< HEAD
     
+=======
+"""
+
+"""
+fileName = "SomeSiteValidURLs.csv"
+pool = Pool(cpu_count() * 2)  # Creates a Pool with cpu_count * 2 threads.
+results = pool.map(parse_different_links, urls)  # results is a list of all the placeHolder lists returned from each call to crawlToCSV
+with open("Output.csv", "w") as f:
+    writeFile = csv.writer(f)
+    for result in results:
+        writeFile.writerow(result)
+"""
+>>>>>>> c0765a799ca60008e4026112c5abb25669034682
